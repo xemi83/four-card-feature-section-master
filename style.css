@@ -76,6 +76,7 @@ body{
 
 .box{
     background-color: white;
+    width: calc(100% - 24px);
     margin: 12px;
     height: 230px;
     border-radius: 8px;
@@ -137,16 +138,4 @@ body{
 
 .bb4{
     background-image: url(images/icon-calculator.svg);
-}
-
-.col1{
-    background-color: blue;
-}
-
-.col2{
-    background-color: plum;
-}
-
-.col3{
-    background-color: burlywood;
 }
