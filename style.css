@@ -10,10 +10,16 @@
 --VeryLightGray: hsl(0, 0%, 98%);
 }
 
-*{
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body{
